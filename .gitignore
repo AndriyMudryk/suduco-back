@@ -1,0 +1,8 @@
+# dependencies
+node_modules
+
+# Webstorm
+.idea
+
+# Application log
+log
