@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const config = require('../config');
 const Image = require('./Image');
+const User = require('./User');
 
 mongoose.connect(config.db, {
   useNewUrlParser: true,
@@ -9,5 +10,6 @@ mongoose.connect(config.db, {
 
 module.exports = {
   mongoose,
-  Image
+  Image,
+  User
 }

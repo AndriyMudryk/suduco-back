@@ -13,8 +13,7 @@ function saveImage(file) {
 			image.name = file.name;
 			image.type = file.type;
 			image.data = buffer.target.nodeBufferResult;
-			console.log(image);
-			image.save();
+			return image.save();
 		}
 	)
 }
